@@ -13,8 +13,8 @@
             <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
         </Border.Shadow>
         <Grid>
-            <Image  Aspect="AspectFill" Margin="0,-20,0,0"/>
-                <Label Text="Сейчас" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+            <Image Source="tsts.jpg" Aspect="AspectFill"  Margin="0,-20,0,0"/>
+                <Label Text="Сейчас" TextColor="Orange" FontFamily="Goth" FontSize="29" Margin="10,10,0,0">
                 <Label.Shadow>
                     <Shadow Brush="Black" Offset="0,0"/>
                 </Label.Shadow>
@@ -27,8 +27,8 @@
             <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
         </Border.Shadow>
         <Grid>
-            <Image Aspect="AspectFill" Margin="0,-20,0,0"/>
-                <Label Text="Прошло" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+                <Image Source="digitalogia.jpg" Aspect="AspectFill"  Margin="0,-20,0,0"/>
+                <Label Text="Прошло" TextColor="Orange" FontFamily="Goth" FontSize="29" Margin="10,10,0,0">
                 <Label.Shadow>
                     <Shadow Brush="Black" Offset="0,0"/>
                 </Label.Shadow>
@@ -41,8 +41,8 @@
                 <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
             </Border.Shadow>
             <Grid>
-                <Image  Aspect="AspectFill" Margin="0,-20,0,0"/>
-                <Label Text="Скоро" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
+                <Image Source="bib.jpg" Aspect="AspectFill"  Margin="0,-20,0,0"/>
+                <Label Text="Скоро" TextColor="Orange" FontFamily="Goth" FontSize="29" Margin="10,10,0,0">
                     <Label.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
                     </Label.Shadow>
@@ -55,7 +55,7 @@
                 <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
             </Border.Shadow>
             <Grid>
-                <Image Source="active.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+                <Image Source="podz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
                 <Label Text="Подать заявку" TextColor="White" FontFamily="Goth" FontSize="29" Margin="20,200,0,0">
                     <Label.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
@@ -67,7 +67,7 @@
         <Border BackgroundColor="#124499" WidthRequest="220" HeightRequest="110" Margin="800,70,0,0" StrokeShape="RoundRectangle 20,20,20,20" Stroke="White" StrokeThickness="2">
             <Grid>
                 <Image Source="vklogo.png" HeightRequest="35" WidthRequest="40" Margin="0,0,150,0"/>
-                <Image Source="tglogo.png" HeightRequest="35" WidthRequest="40" Margin="0,0,50,0"/>
+                <Image Source="tglogo.png" HeightRequest="35" WidthRequest="40" Margin="0,0,70,0"/>
                 <Image Source="navi.png" HeightRequest="40" WidthRequest="40" Margin="30,0,0,0"/>
                 <Image Source="whitelogo.png" HeightRequest="40" WidthRequest="40" Margin="130,0,0,0"/>
             </Grid>
@@ -84,7 +84,7 @@
             <DataTemplate>
                 <Grid>
                     <Image Source="{Binding ImageSource}" Aspect="AspectFill" HeightRequest="340" WidthRequest="400"/>
-                    <Label Text="{Binding Title}" HorizontalOptions="Center"  FontFamily="Goth" VerticalOptions="Center" TextColor="White" FontAttributes="Bold" FontSize="50" Margin="20,280,20,0">
+                    <Label Text="{Binding Title}" HorizontalOptions="Center"  FontFamily="Goth" VerticalOptions="Center" TextColor="white" FontAttributes="Bold" FontSize="50" Margin="20,280,20,0">
                         <Label.Shadow>
                             <Shadow Brush="Black" Offset="0,0"/>
                         </Label.Shadow>

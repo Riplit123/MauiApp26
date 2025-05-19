@@ -14,12 +14,19 @@
                 <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
             </Border.Shadow>
             <Grid>
-                <ScrollView Orientation="Horizontal" >
+
                     <StackLayout Orientation="Horizontal">
-                       
-                        
+                        <Grid>
+                            <Image Source="eee.jpg" Aspect="AspectFill"  Margin="0,0,0,0" WidthRequest="650" HeightRequest="240"/>
+                            <Label Text="Экскурсии по детскому технопарку «Кванториум»" TextColor="lightgreen" FontFamily="Goth" FontSize="29" Margin="10,0,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0"/>
+                                </Label.Shadow>
+                            </Label>
+                        </Grid>
+
                     </StackLayout>
-                </ScrollView>
+
                 <Label Text="" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
                     <Label.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
@@ -32,11 +39,18 @@
                 <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
             </Border.Shadow>
             <Grid>
-                <ScrollView Orientation="Horizontal" x:Name="scroll">
+ 
                     <StackLayout Orientation="Horizontal" x:Name="stackl">
-                        
+                        <Grid>
+                            <Image Source="eeee.jpg" Aspect="AspectFill"  Margin="0,0,0,0" WidthRequest="650" HeightRequest="240"/>
+                            <Label Text="Непрофильные общекультурные мероприятия" TextColor="lightgreen" FontFamily="Goth" FontSize="29" Margin="10,0,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0"/>
+                                </Label.Shadow>
+                            </Label>
+                        </Grid>
                     </StackLayout>
-                </ScrollView>
+               
                 <Label Text="" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
                     <Label.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
@@ -49,11 +63,18 @@
                 <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
             </Border.Shadow>
             <Grid>
-                <ScrollView Orientation="Horizontal">
+                
                     <StackLayout Orientation="Horizontal">
-                        
+                        <Grid>
+                            <Image Source="eeeee.jpg" Aspect="AspectFill"  Margin="0,0,0,0" WidthRequest="650" HeightRequest="240"/>
+                            <Label Text="Гуру-лекции" TextColor="lightgreen" FontFamily="Goth" FontSize="29" Margin="10,10,0,0">
+                                <Label.Shadow>
+                                    <Shadow Brush="Black" Offset="0,0"/>
+                                </Label.Shadow>
+                            </Label>
+                        </Grid>
                     </StackLayout>
-                </ScrollView>
+              
                 <Label Text="" TextColor="White" FontFamily="Goth" FontSize="29" Margin="300,190,0,0">
                     <Label.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
@@ -67,7 +88,7 @@
                <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
            </Border.Shadow>
            <Grid>
-               <Image Source="active.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+               <Image Source="popz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
                <Label Text="Подать заявку" TextColor="White" FontFamily="Goth" FontSize="29" Margin="20,200,0,0">
                    <Label.Shadow>
                        <Shadow Brush="Black" Offset="0,0"/>

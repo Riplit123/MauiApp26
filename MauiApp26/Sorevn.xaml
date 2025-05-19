@@ -17,7 +17,7 @@
             <Grid>
                 <ScrollView Orientation="Horizontal" >
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="seichasi.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
+                        <Image Source="zzzz.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
                         <Image Source="seichas.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
                         <Image Source="seichasii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
                     </StackLayout>
@@ -36,7 +36,7 @@
             <Grid>
                 <ScrollView Orientation="Horizontal" x:Name="scroll">
                     <StackLayout Orientation="Horizontal" x:Name="stackl">
-                        <Image Source="bilo.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
+                        <Image Source="iai.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
                         <Image Source="biloi.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
                         <Image Source="biloii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
                     </StackLayout>
@@ -55,7 +55,7 @@
             <Grid>
                 <ScrollView Orientation="Horizontal">
                     <StackLayout Orientation="Horizontal">
-                        <Image Source="budet.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
+                        <Image Source="steam.jpg" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="430"/>
                         <Image Source="budeti.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="580"/>
                         <Image Source="budetii.png" Aspect="AspectFill" Margin="0,0,0,0" HeightRequest="240" WidthRequest="660"/>
                     </StackLayout>
@@ -73,7 +73,7 @@
            <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
        </Border.Shadow>
        <Grid>
-           <Image Source="active.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+           <Image Source="popz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
            <Label Text="Подать заявку" TextColor="White" FontFamily="Goth" FontSize="29" Margin="15,190,0,0">
                <Label.Shadow>
                    <Shadow Brush="Black" Offset="0,0"/>
@@ -87,7 +87,7 @@
            <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
        </Border.Shadow>
        <Grid>
-               <Image Source="komanda.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="180" HeightRequest="180"/>
+               <Image Source="yyy.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="180" HeightRequest="180"/>
            <Label Text="Участники" TextColor="White" FontFamily="Goth" FontSize="29" Margin="45,190,0,0">
                <Label.Shadow>
                    <Shadow Brush="Black" Offset="0,0"/>
@@ -101,7 +101,7 @@
            <Shadow Brush="Black" Offset="0,0" Opacity="0.9" Radius="20"/>
        </Border.Shadow>
        <Grid>
-                <Image Source="statistika.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
+                <Image Source="zzz.png" Aspect="AspectFill" Margin="0,0,0,0" WidthRequest="200" HeightRequest="200"/>
            <Label Text="Результаты" TextColor="White" FontFamily="Goth" FontSize="29" Margin="40,190,0,0">
                <Label.Shadow>
                    <Shadow Brush="Black" Offset="0,0"/>

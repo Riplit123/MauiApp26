@@ -58,8 +58,10 @@
                         - выращивание и селекция"/>
             </Grid>
         </Border>
-
-        <!--VR-Квантум-->
+        <Button HeightRequest="230" WidthRequest="210" Margin="-530,-490,0,0" BackgroundColor="black" CornerRadius="15" Clicked="Button_Clicked_2"/>
+            
+            
+            <!--VR-Квантум-->
                 <Border BackgroundColor="#124499" HeightRequest="230" WidthRequest="210" StrokeShape="RoundRectangle 15,15,15,15" Margin="350,-490,0,0" Stroke="White" StrokeThickness="2">
                      <Border.Shadow>
                         <Shadow Brush="Black" Offset="0,0"/>
@@ -80,6 +82,7 @@
 
                      </Grid>
                  </Border>
+            <Button HeightRequest="230" WidthRequest="210" Margin="350,-490,0,0" BackgroundColor="Transparent" CornerRadius="15" Clicked="Button_Clicked_3"/>
 
 
             <!--Нано-Квантум-->

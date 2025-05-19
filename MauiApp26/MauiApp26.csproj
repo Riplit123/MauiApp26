@@ -57,6 +57,7 @@
 	  <None Remove="Resources\Images\apptest.png" />
 	  <None Remove="Resources\Images\arduino.png" />
 	  <None Remove="Resources\Images\askpage.jpg" />
+	  <None Remove="Resources\Images\bib.jpg" />
 	  <None Remove="Resources\Images\bilo.jpg" />
 	  <None Remove="Resources\Images\biloi.jpg" />
 	  <None Remove="Resources\Images\biloii.jpg" />
@@ -68,6 +69,12 @@
 	  <None Remove="Resources\Images\budetii.jpg" />
 	  <None Remove="Resources\Images\chesslogod.png" />
 	  <None Remove="Resources\Images\clogo.png" />
+	  <None Remove="Resources\Images\dev.jpg" />
+	  <None Remove="Resources\Images\digitalogia.jpg" />
+	  <None Remove="Resources\Images\dyl.jpg" />
+	  <None Remove="Resources\Images\eee.jpg" />
+	  <None Remove="Resources\Images\eeee.jpg" />
+	  <None Remove="Resources\Images\eeeee.jpg" />
 	  <None Remove="Resources\Images\englogod.png" />
 	  <None Remove="Resources\Images\evergene.png" />
 	  <None Remove="Resources\Images\exk.jpg" />
@@ -75,7 +82,9 @@
 	  <None Remove="Resources\Images\firstnews.png" />
 	  <None Remove="Resources\Images\fonnews.jpg" />
 	  <None Remove="Resources\Images\freeiconevent.png" />
-	  <None Remove="Resources\Images\gi.jpg" />
+	  <None Remove="Resources\Images\gii.jpg" />
+	  <None Remove="Resources\Images\god.jpg" />
+	  <None Remove="Resources\Images\god.png" />
 	  <None Remove="Resources\Images\hitechlogod.png" />
 	  <None Remove="Resources\Images\homey.png" />
 	  <None Remove="Resources\Images\ico.png" />
@@ -93,19 +102,30 @@
 	  <None Remove="Resources\Images\kvantoriumtest.jpg" />
 	  <None Remove="Resources\Images\kvantotiumlogo.png" />
 	  <None Remove="Resources\Images\kvantumskart.jpg" />
+	  <None Remove="Resources\Images\lab.jpg" />
+	  <None Remove="Resources\Images\lab.png" />
 	  <None Remove="Resources\Images\Lobochevski.png" />
 	  <None Remove="Resources\Images\logo_edu.png" />
+	  <None Remove="Resources\Images\loh.jpg" />
 	  <None Remove="Resources\Images\maintest.jpg" />
 	  <None Remove="Resources\Images\mathlogod.png" />
 	  <None Remove="Resources\Images\medialogod.png" />
 	  <None Remove="Resources\Images\merop.jpg" />
+	  <None Remove="Resources\Images\mesto.png" />
 	  <None Remove="Resources\Images\mkn.jpg" />
+	  <None Remove="Resources\Images\mtt.png" />
 	  <None Remove="Resources\Images\mvg.jpg" />
 	  <None Remove="Resources\Images\nanologod.png" />
 	  <None Remove="Resources\Images\navi.png" />
 	  <None Remove="Resources\Images\newslogo.png" />
+	  <None Remove="Resources\Images\photo.png" />
+	  <None Remove="Resources\Images\podz.png" />
+	  <None Remove="Resources\Images\popz.png" />
+	  <None Remove="Resources\Images\ppp.png" />
 	  <None Remove="Resources\Images\python.png" />
 	  <None Remove="Resources\Images\qrtest.png" />
+	  <None Remove="Resources\Images\raspisaniebio.png" />
+	  <None Remove="Resources\Images\raspvr.png" />
 	  <None Remove="Resources\Images\retu.png" />
 	  <None Remove="Resources\Images\robologod.png" />
 	  <None Remove="Resources\Images\saq.jpg" />
@@ -115,9 +135,18 @@
 	  <None Remove="Resources\Images\seichasii.jpg" />
 	  <None Remove="Resources\Images\sorev.jpg" />
 	  <None Remove="Resources\Images\sorevnpage.jpg" />
+	  <None Remove="Resources\Images\str.jpg" />
+	  <None Remove="Resources\Images\tglogo.png" />
+	  <None Remove="Resources\Images\tsts.jpg" />
+	  <None Remove="Resources\Images\uni.jpg" />
+	  <None Remove="Resources\Images\unr.jpg" />
 	  <None Remove="Resources\Images\visualstudio.png" />
+	  <None Remove="Resources\Images\vklogo.png" />
 	  <None Remove="Resources\Images\vrlogod.png" />
 	  <None Remove="Resources\Images\whitelogo.png" />
+	  <None Remove="Resources\Images\ych.jpg" />
+	  <None Remove="Resources\Images\yyy.png" />
+	  <None Remove="Resources\Images\zzz.png" />
 	  <None Remove="Resources\Raw\Animation - 1709724988330.json" />
 	  <None Remove="Resources\Raw\Animation - 1709726346057.json" />
 	  <None Remove="Resources\Raw\fons.mp4" />
@@ -129,6 +158,36 @@
 		<PackageReference Include="CommunityToolkit.Maui.MediaElement" Version="2.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="2.0.0-preview.80" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="bio.xaml.cs">
+	    <DependentUpon>bio.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="nano.xaml.cs">
+	    <DependentUpon>nano.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="hitek.xaml.cs">
+	    <DependentUpon>hitek.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="media.xaml.cs">
+	    <DependentUpon>media.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="kvantshah.xaml.cs">
+	    <DependentUpon>kvantshah.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="engl.xaml.cs">
+	    <DependentUpon>engl.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="math.xaml.cs">
+	    <DependentUpon>math.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="promrobo.xaml.cs">
+	    <DependentUpon>promrobo.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="vr.xaml.cs">
+	    <DependentUpon>vr.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -166,6 +225,33 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="New1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="bio.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="nano.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="hitek.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="media.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="kvantshah.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="engl.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="math.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="promrobo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="vr.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="NewPagetest.xaml">
